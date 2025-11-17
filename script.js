@@ -8,13 +8,11 @@ function calculate() {
         return;
     }
 
-    // BMI calculation
     let heightM = height / 100;
     let bmi = weight / (heightM * heightM);
 
     document.getElementById("bmiResult").innerText = "BMI: " + bmi.toFixed(2);
 
-    // BMI status
     let status = "";
     if (bmi < 18.5) status = "Underweight";
     else if (bmi < 24.9) status = "Normal";
@@ -23,7 +21,6 @@ function calculate() {
 
     document.getElementById("bmiStatus").innerText = "Status: " + status;
 
-    // Heart rate status
     let hrStatus = "";
     if (heartRate < 60) hrStatus = "Low Heart Rate";
     else if (heartRate <= 100) hrStatus = "Normal Heart Rate";
@@ -31,3 +28,4 @@ function calculate() {
 
     document.getElementById("heartRateStatus").innerText = "Heart Rate: " + hrStatus;
 }
+
