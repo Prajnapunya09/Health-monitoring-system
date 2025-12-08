@@ -19,9 +19,14 @@ The **Health Monitoring System** is a simple web-based project designed to displ
 - **HTML** – Structure of the application  
 - **CSS** – Styling and layout  
 - **JavaScript** – Dynamic behavior  
-- **GitHub** – Version control and hosting  
 
 ---
 
 ## 📁 Project Structure
-
+Health-monitoring-system/
+│
+├── index.html # Main web page
+├── style.css # Styling
+├── script.js # JavaScript functionality
+├── Health monitoring system output img.jpg # Output preview
+└── README.md # Project documentation
